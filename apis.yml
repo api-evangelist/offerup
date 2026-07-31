@@ -1,8 +1,30 @@
 aid: offerup
 name: OfferUp
-description: OfferUp is a company surfaced as a portfolio company of a16z, ggv-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  OfferUp is a mobile-first local marketplace where people buy and sell items in
+  their community across categories including electronics, vehicles, furniture,
+  clothing, and collectibles. Founded in 2011 and headquartered in Bellevue,
+  Washington, OfferUp reports more than 40 million active users and around 30
+  million transactions annually, and merged with letgo in 2020 to become one of
+  the largest recommerce platforms in the United States. The company operates
+  consumer iOS and Android apps and a website but does not publish a public
+  developer program, partner API, or API documentation. This profile was
+  surfaced as a venture-capital portfolio company (a16z, GGV Capital) and
+  enriched with an identity and domain-security pass; no public API surface was
+  found.
 url: https://raw.githubusercontent.com/api-evangelist/offerup/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://offerup.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Marketplace
+- Recommerce
+- Classifieds
+- E-Commerce
+- Consumer
+- Local Commerce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +52,20 @@ maintainers:
 common:
 - type: Website
   url: https://offerup.com/
+- type: About
+  url: https://about.offerup.com/
+- type: Support
+  url: https://help.offerup.com/hc/en-us
+- type: Blog
+  url: https://about.offerup.com/insights
+- type: TermsOfService
+  url: https://offerup.com/terms
+- type: PrivacyPolicy
+  url: https://offerup.com/privacy
+- type: DomainSecurity
+  url: security/offerup-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
