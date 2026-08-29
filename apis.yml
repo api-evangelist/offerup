@@ -13,6 +13,9 @@ description: >-
   enriched with an identity and domain-security pass; no public API surface was
   found.
 url: https://raw.githubusercontent.com/api-evangelist/offerup/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This profile was surfaced as a venture-capital portfolio company (a16z, GGV Capital) and enriched with an identity and domain-security pass; no public API surface was found."
 deliveryModel:
   model: saas
   open_source: false
