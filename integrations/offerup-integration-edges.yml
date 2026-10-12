@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/offerup/integrations
+- https://n8n.io/integrations/offerup/
+- https://composio.dev/toolkits/offerup
+- https://monid.ai/tools/offerup
+checked:
+- https://composio.dev/toolkits/offerup
+- https://monid.ai/tools/offerup
+- https://n8n.io/integrations/offerup/
+- https://zapier.com/apps/offerup/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
